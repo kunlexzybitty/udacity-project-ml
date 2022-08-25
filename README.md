@@ -1,5 +1,3 @@
-[![kcemenike](https://circleci.com/gh/kcemenike/operationalize-ml.svg?style=svg)](https://app.circleci.com/pipelines/github/kcemenike/operationalize-ml)
-
 ## Project Overview
 The Operationalize ML project deploys machine learning microservice to kubernetes cluster.
 
@@ -34,11 +32,11 @@ The Operationalize ML project deploys machine learning microservice to kubernete
 - Lint application using hadolint
 
 ### Step 2: Run Docker container
-- Run the application on docker by calling `./run_docker.sh`
+- Run the application on docker using `./run_docker.sh`
 
 ### Step 3: Upload to Docker Hub
-- In the `./upload_docker.sh` file, edit the dockerpath (line 8) and change the docker username to a personalized one (or leave it as is, to use the public kcemenike/microproject:v1.0.0)
-- To upload to docker hub, run `./upload_docker.sh`
+- In the `./upload_docker.sh` file, edit the dockerpath to input username
+- Upload to dockerhub using `./upload_docker.sh`
 
 ### Step 4: Kubernetes deployment
-- To deploy to kubernetes, run `./run_kubernetes.sh`
+- Deploy to kubernetes, run `./run_kubernetes.sh`
