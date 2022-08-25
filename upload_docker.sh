@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="kcemenike/microproject:v1.0.0"
+dockerpath="projectml/microproject:v1.0.0"
 
 # Step 2:  
 # Authenticate
