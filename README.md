@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/kunlexzybitty/udacity-project-ml/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/kunlexzybitty/udacity-project-ml/tree/main)
+
 ## Project Overview
 The Operationalize ML project deploys machine learning microservice to kubernetes cluster.
 
