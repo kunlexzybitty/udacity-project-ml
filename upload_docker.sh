@@ -5,11 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="kcemenike/microproject:v1.0.0"
 
 # Step 2:  
-# Authenticate & tag
+# Authenticate
+docker login
+#tag image
+docker tag microproject ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
-# Push image to a docker repository
+# Push image to a docker repo
+docker push ${dockerpath}
